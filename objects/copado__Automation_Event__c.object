@@ -270,7 +270,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Automation Events</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

@@ -2,39 +2,39 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value><!-- Test Run Step --></value>
+        <value></value>
     </caseValues>
     <fieldSets>
-        <label><!-- TestRunExecutionFieldSet --></label>
+        <label></label>
         <name>copado__TestRunExecutionFieldSet</name>
     </fieldSets>
     <fields>
-        <label><!-- Action/Description --></label>
+        <label></label>
         <name>copado__Action_Description__c</name>
     </fields>
     <fields>
-        <label><!-- Actual Result --></label>
+        <label></label>
         <name>copado__Actual_Result__c</name>
     </fields>
     <fields>
-        <label><!-- Expected Result --></label>
+        <label></label>
         <name>copado__Expected_Result__c</name>
     </fields>
     <fields>
-        <label><!-- Guidance notes --></label>
+        <label></label>
         <name>copado__Guidance_notes__c</name>
     </fields>
     <fields>
-        <label><!-- Order --></label>
+        <label></label>
         <name>copado__Order__c</name>
     </fields>
     <fields>
-        <label><!-- Script Step --></label>
+        <label></label>
         <name>copado__Script_Step__c</name>
-        <relationshipLabel><!-- Test Run Steps --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Status --></label>
+        <label></label>
         <name>copado__Status__c</name>
         <picklistValues>
             <masterLabel>Failed</masterLabel>
@@ -50,9 +50,9 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Test Run --></label>
+        <label></label>
         <name>copado__Test_Run__c</name>
-        <relationshipLabel><!-- Test Run Steps --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
-    <nameFieldLabel><!-- Test Run Step Name --></nameFieldLabel>
+    <nameFieldLabel></nameFieldLabel>
 </CustomObjectTranslation>

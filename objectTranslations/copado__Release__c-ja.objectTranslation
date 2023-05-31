@@ -2,32 +2,32 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value><!-- Release --></value>
+        <value></value>
     </caseValues>
     <fieldSets>
-        <label><!-- Copado Header Fields --></label>
+        <label></label>
         <name>copado__Copado_Header_Fields</name>
     </fieldSets>
     <fields>
         <help>すべてのユーザーストーリーのブランチは、デプロイメントフローのメインブランチから作成されます。リリースベースブランチが指定されている場合、そのリリースにリンクされているユーザーストーリーのすべてのブランチは、指定されたベースブランチから作成されます。</help>
-        <label><!-- Base Branch --></label>
+        <label></label>
         <name>copado__Base_Branch__c</name>
     </fields>
     <fields>
-        <label><!-- Description --></label>
+        <label></label>
         <name>copado__Description__c</name>
     </fields>
     <fields>
-        <label><!-- Planned Date --></label>
+        <label></label>
         <name>copado__Planned_Date__c</name>
     </fields>
     <fields>
-        <label><!-- Project --></label>
+        <label></label>
         <name>copado__Project__c</name>
-        <relationshipLabel><!-- Releases --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Status --></label>
+        <label></label>
         <name>copado__Status__c</name>
         <picklistValues>
             <masterLabel>Cancelled</masterLabel>
@@ -48,20 +48,20 @@
     </fields>
     <fields>
         <help>このリリースにリンクされたプロモーションがでデプロイメントフローのメインブランチにマージされると、Copadoはメインブランチにこのバージョン番号のタグを付けます。この値は通常、メジャー (v7 など)、マイナー (v7.3) またはパッチ (v7.3.2) リリースに分類されます。</help>
-        <label><!-- Version --></label>
+        <label></label>
         <name>copado__Version__c</name>
     </fields>
-    <nameFieldLabel><!-- Release Name --></nameFieldLabel>
+    <nameFieldLabel></nameFieldLabel>
     <validationRules>
-        <errorMessage><!-- please dont include spaces in version field --></errorMessage>
+        <errorMessage></errorMessage>
         <name>copado__Validate_spaces_in_version</name>
     </validationRules>
     <webLinks>
-        <label><!-- Mass_add_to_Release --></label>
+        <label></label>
         <name>copado__Mass_add_to_Release</name>
     </webLinks>
     <webLinks>
-        <label><!-- Select_Base_Branch --></label>
+        <label></label>
         <name>copado__Select_Base_Branch</name>
     </webLinks>
 </CustomObjectTranslation>

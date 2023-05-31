@@ -2,21 +2,21 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value><!-- Selenium Settings --></value>
+        <value></value>
     </caseValues>
     <fields>
         <help>このクレデンシャルは、クイックランのために使用されます。各ユーザーは独自のクイック設定を持っており、この設定に基づいてテストが実行されます。</help>
-        <label><!-- Default Credential --></label>
+        <label></label>
         <name>copado__Default_Org_Credential__c</name>
-        <relationshipLabel><!-- Selenium Settings --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Desired Capabilities --></label>
+        <label></label>
         <name>copado__Desired_Capabilities__c</name>
     </fields>
     <fields>
         <help>Windows / Macプラットフォーム用の表示サイズ。例えば。 Windowsを使用したSauceLabsは小さいサイズだけをサポートします（&lt;1280x1024）</help>
-        <label><!-- Device Screen Size --></label>
+        <label></label>
         <name>copado__Device_Screen_Size__c</name>
         <picklistValues>
             <masterLabel>Big screen</masterLabel>
@@ -32,7 +32,7 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Provider --></label>
+        <label></label>
         <name>copado__Provider__c</name>
         <picklistValues>
             <masterLabel>Browser Stack</masterLabel>
@@ -44,26 +44,22 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>Sauce Labs</masterLabel>
-            <translation><!-- Sauce Labs --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Selected Platforms --></label>
+        <label></label>
         <name>copado__Selected_Platforms__c</name>
     </fields>
     <fields>
         <help>ローカルプロキシを使用して、VPNの背後にある組織にアクセスできますか？これにより、SauceLabs ConnectまたはBrowserStackローカルテストが可能になります。</help>
-        <label><!-- Webdriver Proxy --></label>
+        <label></label>
         <name>copado__Webdriver_Proxy__c</name>
     </fields>
     <fields>
-        <help><!-- Eg for Browserstack:
-http://USER:TOKEN@hub.browserstack.com:80/wd/hub
-
-Eg for Saucelabs:
-http://USER:TOKEN@ondemand.saucelabs.com:80/wd/hub/ --></help>
-        <label><!-- Webdriver URL --></label>
+        <help></help>
+        <label></label>
         <name>copado__Webdriver_URL__c</name>
     </fields>
-    <nameFieldLabel><!-- Selenium Test Provider Name --></nameFieldLabel>
+    <nameFieldLabel></nameFieldLabel>
 </CustomObjectTranslation>

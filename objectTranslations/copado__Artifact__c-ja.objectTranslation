@@ -2,75 +2,75 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value><!-- Package --></value>
+        <value></value>
     </caseValues>
     <fields>
         <help>これは、マスターブランチにある、アーティファクトを保存できるリポジトリです。</help>
-        <label><!-- Package Repository --></label>
+        <label></label>
         <name>copado__Artifact_Repository__c</name>
-        <relationshipLabel><!-- Packages --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Latest Package Version --></label>
+        <label></label>
         <name>copado__Artifact_Version__c</name>
-        <relationshipLabel><!-- Packages --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Data JSON --></label>
+        <label></label>
         <name>copado__DataJSON__c</name>
     </fields>
     <fields>
-        <help><!-- Field to specify the default branch in the repository from where new packages, versions, builds, images... are created. This parameter is optional. --></help>
-        <label><!-- Default Branch --></label>
+        <help></help>
+        <label></label>
         <name>copado__DefaultBranch__c</name>
     </fields>
     <fields>
-        <help><!-- Field to specify the default folder of your source code in the repository from where new packages, versions, builds, images... are created. This parameter is optional. --></help>
-        <label><!-- Default Path --></label>
+        <help></help>
+        <label></label>
         <name>copado__DefaultPath__c</name>
     </fields>
     <fields>
         <help>パッケージの説明</help>
-        <label><!-- Description --></label>
+        <label></label>
         <name>copado__Description__c</name>
     </fields>
     <fields>
-        <label><!-- Last Job Execution Id --></label>
+        <label></label>
         <name>copado__LastJobExecutionId__c</name>
     </fields>
     <fields>
         <help>名前空間なしでパッケージ作成を可能にします。ロック解除されたパッケージにのみで利用可能です。</help>
-        <label><!-- No Namespace --></label>
+        <label></label>
         <name>copado__No_Namespace__c</name>
     </fields>
     <fields>
         <help>&quot;ロック解除されたパッケージと 2GP のために、アーティファクトのメタデータが取得される組織のクレデンシャルになります。
  アンマネージドパッケージの作成元の組織のクレデンシャルになります。&quot;</help>
-        <label><!-- Source Credential --></label>
+        <label></label>
         <name>copado__Org_Credential__c</name>
-        <relationshipLabel><!-- Artifacts --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
         <help>関連パッケージの識別子になります。パッケージのバージョン作成時にパッケージIDとして使用され、パッケージのエイリアスとしてsfdx-project.jsonファイルにも使用されます。</help>
-        <label><!-- Package Id --></label>
+        <label></label>
         <name>copado__Package_Id__c</name>
     </fields>
     <fields>
         <help>パッケージングでは、ネームスペースのプレフィックスは、AppExchange 上の他の開発者のパッケージと区別するための 1 文字から 15 文字の英数字の識別子になります。ロック解除されたパッケージには必要ありません。</help>
-        <label><!-- Package Namespace --></label>
+        <label></label>
         <name>copado__Package_Namespace__c</name>
     </fields>
     <fields>
         <help>詳細については、https://developer.salesforce.com/docs/atlas.en-us.s.sfdx_dev.meta/sfdx_dev/sfdx_dev_dev2gp_plan_pkg_types.htm</help>
-        <label><!-- Package Type --></label>
+        <label></label>
         <name>copado__Package_Type__c</name>
         <picklistValues>
             <masterLabel>First-Generation Package</masterLabel>
-            <translation><!-- First-Generation Package --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Second-Generation Package</masterLabel>
-            <translation><!-- Second-Generation Package --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Unlocked</masterLabel>
@@ -78,18 +78,18 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Pipeline --></label>
+        <label></label>
         <name>copado__Pipeline__c</name>
-        <relationshipLabel><!-- Packages --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
         <help>force:authコマンドが使用するログインURLを指定します。 指定しない場合、デフォルトは login.salesforce.com です。特定のセールスフォースインスタンスに対してユーザ認証を行う場合は、デフォルト値を上書きします。</help>
-        <label><!-- Sfdc Login Url --></label>
+        <label></label>
         <name>copado__Sfdc_Login_Url__c</name>
     </fields>
     <fields>
         <help>パッケージのソースが対応しているAPIのバージョンです。このフィールドは、最近セールスフォースのリリースで変更されたメタデータタイプを使用している場合に重要です。</help>
-        <label><!-- Source Api Version --></label>
+        <label></label>
         <name>copado__Source_Api_Version__c</name>
         <picklistValues>
             <masterLabel>1.0</masterLabel>
@@ -274,59 +274,59 @@
     </fields>
     <fields>
         <help>パッケージとそのバージョンの作成と保存に使用されるDev HubのCopado組織クレデンシャル</help>
-        <label><!-- Target Dev Hub Org --></label>
+        <label></label>
         <lookupFilter>
-            <errorMessage><!-- Only dev hub org credentials can be selected. Given value not found or it is not a dev hub org. --></errorMessage>
+            <errorMessage></errorMessage>
         </lookupFilter>
         <name>copado__Target_Dev_Hub_Org__c</name>
-        <relationshipLabel><!-- Packages (Target Dev Hub Org) --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
-    <nameFieldLabel><!-- Package Name --></nameFieldLabel>
+    <nameFieldLabel></nameFieldLabel>
     <recordTypes>
-        <description><!-- Version Control System centric package --></description>
-        <label><!-- Git Package --></label>
+        <description></description>
+        <label></label>
         <name>copado__Git_Artifact</name>
     </recordTypes>
     <recordTypes>
-        <description><!-- Salesforce Unlocked and Second-Generation Managed Package --></description>
-        <label><!-- Salesforce Package --></label>
+        <description></description>
+        <label></label>
         <name>copado__Package_Artifact</name>
     </recordTypes>
     <recordTypes>
-        <description><!-- User Story Bundle --></description>
-        <label><!-- User Story Bundle --></label>
+        <description></description>
+        <label></label>
         <name>copado__User_Story_Bundle</name>
     </recordTypes>
     <validationRules>
-        <errorMessage><!-- Package names are in use for DX folder structure, therefore, package names are not editable. --></errorMessage>
+        <errorMessage></errorMessage>
         <name>copado__ArtifactNameCannotChange</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- Repository relation for packages is required for Unlocked and Second Generation Packages and should be empty for First Second Generation Packages --></errorMessage>
+        <errorMessage></errorMessage>
         <name>copado__Artifact_Repo_Control_For_Package_Type</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- Package name cannot contain white spaces --></errorMessage>
+        <errorMessage></errorMessage>
         <name>copado__Name_should_not_contain_empty_space</name>
     </validationRules>
     <webLinks>
-        <label><!-- Generate_New_Version --></label>
+        <label></label>
         <name>copado__Generate_New_Version</name>
     </webLinks>
     <webLinks>
-        <label><!-- Generate_Project_Definition_File --></label>
+        <label></label>
         <name>copado__Generate_Project_Definition_File</name>
     </webLinks>
     <webLinks>
-        <label><!-- Manage_Metadata --></label>
+        <label></label>
         <name>copado__Manage_Metadata</name>
     </webLinks>
     <webLinks>
-        <label><!-- Manage_Org_Definition_Dependencies --></label>
+        <label></label>
         <name>copado__Manage_Org_Definition_Dependencies</name>
     </webLinks>
     <webLinks>
-        <label><!-- Manage_Package_Selection --></label>
+        <label></label>
         <name>copado__Manage_Package_Selection</name>
     </webLinks>
 </CustomObjectTranslation>

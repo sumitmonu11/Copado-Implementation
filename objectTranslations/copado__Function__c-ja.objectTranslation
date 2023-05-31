@@ -2,26 +2,26 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value><!-- Function --></value>
+        <value></value>
     </caseValues>
     <fields>
         <help>この機能を識別するための一意な名前になります。関数の結果レコードには、レポートやダッシュボードでこれらの結果をフィルタリングするためのジョブタイプフィールドがあり、このAPI名も含まれています。</help>
-        <label><!-- API Name --></label>
+        <label></label>
         <name>copado__API_Name__c</name>
     </fields>
     <fields>
         <help>ハンドラーフォーマット：className  
  クラスはMCCallbackインタフェースを実装する必要があります。</help>
-        <label><!-- ApexClass --></label>
+        <label></label>
         <name>copado__ApexClass__c</name>
     </fields>
     <fields>
         <help>関数の実行が完了するたびに、フローまたはApexクラスをトリガーします。このトリガーは、関数の結果のステータスが成功または失敗に変更された際に生じます。</help>
-        <label><!-- Callback Type --></label>
+        <label></label>
         <name>copado__Callback_Type__c</name>
         <picklistValues>
             <masterLabel>ApexClass</masterLabel>
-            <translation><!-- ApexClass --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Flow</masterLabel>
@@ -29,39 +29,39 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Description --></label>
+        <label></label>
         <name>copado__Description__c</name>
     </fields>
     <fields>
         <help>ハンドラー形式：FlowAPIName</help>
-        <label><!-- FlowHandler --></label>
+        <label></label>
         <name>copado__FlowHandler__c</name>
     </fields>
     <fields>
         <help>Copado が提供するDockerイメージ名。利用可能なイメージパスは、Copadoのドキュメントに記載されています。イメージ名は、/で区切られた名前の構成要素からなり、 レジストリのホスト名がその前に置かれます。</help>
-        <label><!-- Image Name --></label>
+        <label></label>
         <name>copado__Image_Name__c</name>
     </fields>
     <fields>
-        <label><!-- Options --></label>
+        <label></label>
         <name>copado__Options__c</name>
     </fields>
     <fields>
         <help>これは、実行を呼び出す前に必要なすべてのパラメータが設定されているかどうかを検証するために使用されます。</help>
-        <label><!-- Parameters --></label>
+        <label></label>
         <name>copado__Parameters__c</name>
     </fields>
     <fields>
-        <label><!-- Script --></label>
+        <label></label>
         <name>copado__Script__c</name>
     </fields>
     <fields>
         <help>関数のバックエンド実行から応答がない場合、自動的に終了するまでの時間です。</help>
-        <label><!-- Timeout --></label>
+        <label></label>
         <name>copado__Timeout__c</name>
     </fields>
     <fields>
-        <label><!-- Type --></label>
+        <label></label>
         <name>copado__Type__c</name>
         <picklistValues>
             <masterLabel>Custom</masterLabel>
@@ -73,15 +73,15 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Version --></label>
+        <label></label>
         <name>copado__Version__c</name>
     </fields>
     <fields>
-        <label><!-- Worker Size --></label>
+        <label></label>
         <name>copado__Worker_Size__c</name>
         <picklistValues>
             <masterLabel>L</masterLabel>
-            <translation><!-- L --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>M</masterLabel>
@@ -89,20 +89,20 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>S</masterLabel>
-            <translation><!-- S --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>XL</masterLabel>
-            <translation><!-- XL --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
-    <nameFieldLabel><!-- Function Name --></nameFieldLabel>
+    <nameFieldLabel></nameFieldLabel>
     <validationRules>
-        <errorMessage><!-- Api name can only contain alphanumeric characters and must begin with a letter --></errorMessage>
+        <errorMessage></errorMessage>
         <name>copado__Function_Name_must_Be_Alpha_Numeric</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- Script cannot be empty. --></errorMessage>
+        <errorMessage></errorMessage>
         <name>copado__Script_must_contain_a_value</name>
     </validationRules>
 </CustomObjectTranslation>

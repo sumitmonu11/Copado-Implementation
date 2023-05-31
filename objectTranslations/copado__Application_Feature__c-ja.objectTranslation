@@ -2,66 +2,66 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value><!-- Feature --></value>
+        <value></value>
     </caseValues>
     <fields>
-        <label><!-- Application --></label>
+        <label></label>
         <name>copado__Application__c</name>
-        <relationshipLabel><!-- Features --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Architect --></label>
+        <label></label>
         <name>copado__Architect__c</name>
-        <relationshipLabel><!-- Features (Architect) --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Complexity --></label>
+        <label></label>
         <name>copado__Complexity__c</name>
     </fields>
     <fields>
-        <label><!-- Description --></label>
+        <label></label>
         <name>copado__Description__c</name>
     </fields>
     <fields>
-        <label><!-- Epic --></label>
+        <label></label>
         <name>copado__Epic__c</name>
-        <relationshipLabel><!-- Features --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Estimated Value --></label>
+        <label></label>
         <name>copado__Estimated_Value__c</name>
     </fields>
     <fields>
-        <label><!-- Priority --></label>
+        <label></label>
         <name>copado__Priority__c</name>
         <picklistValues>
             <masterLabel>1</masterLabel>
-            <translation><!-- 1 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>2</masterLabel>
-            <translation><!-- 2 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>3</masterLabel>
-            <translation><!-- 3 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>4</masterLabel>
-            <translation><!-- 4 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>5</masterLabel>
-            <translation><!-- 5 --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Product Owner --></label>
+        <label></label>
         <name>copado__Product_Owner__c</name>
-        <relationshipLabel><!-- Features (Product Owner) --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Status --></label>
+        <label></label>
         <name>copado__Status__c</name>
         <picklistValues>
             <masterLabel>Accepted</masterLabel>
@@ -98,16 +98,16 @@
     </fields>
     <fields>
         <help>機能に関する技術的な仮定または設計上の考慮事項</help>
-        <label><!-- Technical Assumptions --></label>
+        <label></label>
         <name>copado__Technical_Assumptions__c</name>
     </fields>
     <fields>
-        <label><!-- # Users --></label>
+        <label></label>
         <name>copado__Users__c</name>
     </fields>
     <fields>
         <help>機能要件のビジネス価値</help>
-        <label><!-- Value Type --></label>
+        <label></label>
         <name>copado__Value_Type__c</name>
         <picklistValues>
             <masterLabel>New Revenue</masterLabel>
@@ -115,8 +115,8 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>Time Savings</masterLabel>
-            <translation><!-- Time Savings --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
-    <nameFieldLabel><!-- Feature Name --></nameFieldLabel>
+    <nameFieldLabel></nameFieldLabel>
 </CustomObjectTranslation>

@@ -393,7 +393,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Deployment Tasks</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

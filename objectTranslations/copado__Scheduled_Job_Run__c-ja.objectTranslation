@@ -2,28 +2,28 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value><!-- Scheduled Job Run --></value>
+        <value></value>
     </caseValues>
     <fields>
-        <label><!-- Called URL --></label>
+        <label></label>
         <name>copado__Called_URL__c</name>
     </fields>
     <fields>
-        <label><!-- Message --></label>
+        <label></label>
         <name>copado__Message__c</name>
     </fields>
     <fields>
-        <label><!-- Run as User --></label>
+        <label></label>
         <name>copado__Run_as_User__c</name>
-        <relationshipLabel><!-- Scheduled Job Runs --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Scheduled Job --></label>
+        <label></label>
         <name>copado__Scheduled_Job__c</name>
-        <relationshipLabel><!-- Scheduled Job Runs --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Status --></label>
+        <label></label>
         <name>copado__Status__c</name>
         <picklistValues>
             <masterLabel>Failure</masterLabel>
@@ -34,5 +34,5 @@
             <translation>成功</translation>
         </picklistValues>
     </fields>
-    <nameFieldLabel><!-- Scheduled Job Result Name --></nameFieldLabel>
+    <nameFieldLabel></nameFieldLabel>
 </CustomObjectTranslation>

@@ -2,23 +2,23 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value><!-- Apex Test Result --></value>
+        <value></value>
     </caseValues>
     <fields>
-        <label><!-- Details --></label>
+        <label></label>
         <name>copado__Details__c</name>
     </fields>
     <fields>
-        <label><!-- Failures --></label>
+        <label></label>
         <name>copado__Failures__c</name>
     </fields>
     <fields>
-        <label><!-- Credential --></label>
+        <label></label>
         <name>copado__Org__c</name>
-        <relationshipLabel><!-- Apex Test Results --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Status --></label>
+        <label></label>
         <name>copado__Status__c</name>
         <picklistValues>
             <masterLabel>Errors</masterLabel>
@@ -30,22 +30,22 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Successes (%) --></label>
+        <label></label>
         <name>copado__Successes__c</name>
     </fields>
     <fields>
-        <label><!-- Tests run --></label>
+        <label></label>
         <name>copado__Tests_run__c</name>
     </fields>
     <fields>
         <help>これはApexテストを実行するための合計時間です</help>
-        <label><!-- Total time (ms) --></label>
+        <label></label>
         <name>copado__Total_time__c</name>
     </fields>
     <fields>
-        <label><!-- User Story --></label>
+        <label></label>
         <name>copado__User_Story__c</name>
-        <relationshipLabel><!-- Apex Test Results --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
-    <nameFieldLabel><!-- Apex Test Name --></nameFieldLabel>
+    <nameFieldLabel></nameFieldLabel>
 </CustomObjectTranslation>

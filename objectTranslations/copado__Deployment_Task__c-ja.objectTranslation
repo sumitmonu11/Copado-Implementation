@@ -2,10 +2,10 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value><!-- Deployment Task --></value>
+        <value></value>
     </caseValues>
     <fields>
-        <label><!-- Apply to --></label>
+        <label></label>
         <name>copado__Apply_to__c</name>
         <picklistValues>
             <masterLabel>All Environments in Pipeline</masterLabel>
@@ -17,19 +17,19 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Disable Task for Back-Promotions --></label>
+        <label></label>
         <name>copado__Disable_Task_for_Back_Promotions__c</name>
     </fields>
     <fields>
-        <label><!-- Notify Task Owner --></label>
+        <label></label>
         <name>copado__Notify_Task_Owner__c</name>
     </fields>
     <fields>
-        <label><!-- Order --></label>
+        <label></label>
         <name>copado__Order__c</name>
     </fields>
     <fields>
-        <label><!-- Perform Deployment Task --></label>
+        <label></label>
         <name>copado__Perform_Manual_Task__c</name>
         <picklistValues>
             <masterLabel>After Deployment</masterLabel>
@@ -41,15 +41,15 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Perform in Destination Credential(s) --></label>
+        <label></label>
         <name>copado__Perform_in_Destination_Orgs__c</name>
     </fields>
     <fields>
-        <label><!-- Perform in Source Credential --></label>
+        <label></label>
         <name>copado__Perform_in_Source_Org__c</name>
     </fields>
     <fields>
-        <label><!-- Status --></label>
+        <label></label>
         <name>copado__Status__c</name>
         <picklistValues>
             <masterLabel>Completed</masterLabel>
@@ -65,15 +65,15 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Task Description --></label>
+        <label></label>
         <name>copado__Task_Description__c</name>
     </fields>
     <fields>
-        <label><!-- Type --></label>
+        <label></label>
         <name>copado__Type__c</name>
         <picklistValues>
             <masterLabel>Apex</masterLabel>
-            <translation><!-- Apex --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Bulk Data</masterLabel>
@@ -109,13 +109,13 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- User Story --></label>
+        <label></label>
         <name>copado__User_Story__c</name>
-        <relationshipLabel><!-- Deployment Tasks --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- dataJSON --></label>
+        <label></label>
         <name>copado__dataJSON__c</name>
     </fields>
-    <nameFieldLabel><!-- Deployment Tasks Name --></nameFieldLabel>
+    <nameFieldLabel></nameFieldLabel>
 </CustomObjectTranslation>

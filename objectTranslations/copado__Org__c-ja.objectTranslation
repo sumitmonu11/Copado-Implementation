@@ -2,59 +2,59 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value><!-- Credential --></value>
+        <value></value>
     </caseValues>
     <fieldSets>
-        <label><!-- Copado Header Fields --></label>
+        <label></label>
         <name>copado__Copado_Header_Fields</name>
     </fieldSets>
     <fields>
         <help>組織の最新のコンプライアンス・スキャンのステータス。</help>
-        <label><!-- Compliance Status --></label>
+        <label></label>
         <name>copado__Compliance_Status__c</name>
     </fields>
     <fields>
         <help>例えば：https://company.my.salesforce.com</help>
-        <label><!-- Custom Domain --></label>
+        <label></label>
         <name>copado__Custom_Domain__c</name>
     </fields>
     <fields>
         <help>選択された場合、これはプロモーションデプロイメントのための組織クレデンシャルとなります。</help>
-        <label><!-- Default Credential --></label>
+        <label></label>
         <name>copado__Default_Credential__c</name>
     </fields>
     <fields>
         <help>プロモーションのうち、レビューアプリ作成に使用されます。それ以外の場合は、スクラッチ組織は、テンプレートを使うか、あるいは使わずに作成することができます。</help>
-        <label><!-- Default Scratch Org Definition --></label>
+        <label></label>
         <name>copado__Default_Scratch_Org_Definition__c</name>
-        <relationshipLabel><!-- Credentials --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Developer Hub Credential --></label>
+        <label></label>
         <name>copado__Developer_Hub_Org__c</name>
-        <relationshipLabel><!-- Credentials --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
         <help>このチェックボックスをオンにすると、レコードを保存または参照する時に、組織クレデンシャルが検証されません。</help>
-        <label><!-- Disable Validation --></label>
+        <label></label>
         <name>copado__Disable_Validation__c</name>
     </fields>
     <fields>
         <help>環境レコードは、組織クレデンシャルが認証されると自動的に作成されます。各環境は、同じ環境の異なるユーザに対応する複数の組織クレデンシャルを持つことができます。</help>
-        <label><!-- Environment --></label>
+        <label></label>
         <name>copado__Environment__c</name>
-        <relationshipLabel><!-- Credentials --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Error --></label>
+        <label></label>
         <name>copado__Error__c</name>
     </fields>
     <fields>
-        <label><!-- Last Apex Tests Datetime --></label>
+        <label></label>
         <name>copado__Last_Apex_Tests_Datetime__c</name>
     </fields>
     <fields>
-        <label><!-- Last Apex Tests Status --></label>
+        <label></label>
         <name>copado__Last_Apex_Tests_Status__c</name>
         <picklistValues>
             <masterLabel>Error</masterLabel>
@@ -66,19 +66,19 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>OK</masterLabel>
-            <translation><!-- OK --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Last Compliance Scan Date --></label>
+        <label></label>
         <name>copado__Last_Compliance_Scan_Date__c</name>
     </fields>
     <fields>
-        <label><!-- Last Git Backup Datetime --></label>
+        <label></label>
         <name>copado__Last_Git_Backup_Datetime__c</name>
     </fields>
     <fields>
-        <label><!-- Last Git Backup Status --></label>
+        <label></label>
         <name>copado__Last_Git_Backup_Status__c</name>
         <picklistValues>
             <masterLabel>Error</masterLabel>
@@ -90,30 +90,30 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>OK</masterLabel>
-            <translation><!-- OK --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
         <help>空欄はすべてのタイプを表しています。選択した項目にのみをバックアップするには、1つ以上のタイプを選択してください。</help>
-        <label><!-- Metadata Types --></label>
+        <label></label>
         <name>copado__Metadata_Types__c</name>
     </fields>
     <fields>
         <help>この環境からの変更をデプロイするために必要な最小コードカバー率</help>
-        <label><!-- Minimum Apex Test Coverage --></label>
+        <label></label>
         <name>copado__Minimum_Apex_Test_Coverage__c</name>
     </fields>
     <fields>
         <help>この値はCopadoによって自動的に設定され更新されます。</help>
-        <label><!-- Oauth Signature --></label>
+        <label></label>
         <name>copado__Oauth_Signature__c</name>
     </fields>
     <fields>
-        <label><!-- Org Type --></label>
+        <label></label>
         <name>copado__Org_Type__c</name>
         <picklistValues>
             <masterLabel>Production/Developer</masterLabel>
-            <translation><!-- Production/Developer --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Sandbox</masterLabel>
@@ -129,24 +129,24 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Platform --></label>
+        <label></label>
         <name>copado__Platform__c</name>
     </fields>
     <fields>
-        <label><!-- Profile Name --></label>
+        <label></label>
         <name>copado__Profile_Name__c</name>
     </fields>
     <fields>
         <help>環境の組織ID</help>
-        <label><!-- SFDC Org ID --></label>
+        <label></label>
         <name>copado__SFDC_Org_ID__c</name>
     </fields>
     <fields>
-        <label><!-- Scratch Org Expiration Date --></label>
+        <label></label>
         <name>copado__Scratch_Org_Expiration_Date__c</name>
     </fields>
     <fields>
-        <label><!-- Scratch Org Status --></label>
+        <label></label>
         <name>copado__Scratch_Org_Status__c</name>
         <picklistValues>
             <masterLabel>Active</masterLabel>
@@ -167,7 +167,7 @@
     </fields>
     <fields>
         <help>継続的インテグレーション機能。すべてのApexテストメソッドを実行し、その結果をApexテスト結果オブジェクトに保存して、メールアラートやレポートを作成することができます。この機能はGitバックアップと合わせて非常に強力で、最近失敗した変更を自動的に検出します。</help>
-        <label><!-- Test Frequency --></label>
+        <label></label>
         <name>copado__Test_Frequency__c</name>
         <picklistValues>
             <masterLabel>Daily</masterLabel>
@@ -188,37 +188,37 @@
     </fields>
     <fields>
         <help>セキュリティトークンは自動生成されるキーで、API経由で接続するときに使用されます。</help>
-        <label><!-- Security Token --></label>
+        <label></label>
         <name>copado__Token__c</name>
     </fields>
     <fields>
-        <label><!-- Type Icon --></label>
+        <label></label>
         <name>copado__Type_Icon__c</name>
     </fields>
     <fields>
-        <label><!-- Username --></label>
+        <label></label>
         <name>copado__Username__c</name>
     </fields>
     <fields>
         <help>最新のOAuth認証有効期限</help>
-        <label><!-- Validated Date --></label>
+        <label></label>
         <name>copado__Validated_Date__c</name>
     </fields>
     <fields>
-        <label><!-- Validated Status --></label>
+        <label></label>
         <name>copado__Validated_Status__c</name>
     </fields>
     <fields>
-        <label><!-- Is Developer Hub Credential --></label>
+        <label></label>
         <name>copado__is_Developer_Hub_Org__c</name>
     </fields>
-    <nameFieldLabel><!-- Credential Name --></nameFieldLabel>
+    <nameFieldLabel></nameFieldLabel>
     <webLinks>
-        <label><!-- Add_to_Deployment --></label>
+        <label></label>
         <name>copado__Add_to_Deployment</name>
     </webLinks>
     <webLinks>
-        <label><!-- Validate_Org --></label>
+        <label></label>
         <name>copado__Validate_Org</name>
     </webLinks>
 </CustomObjectTranslation>

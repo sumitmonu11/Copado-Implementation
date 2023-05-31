@@ -231,7 +231,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Scheduled Job Runs</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

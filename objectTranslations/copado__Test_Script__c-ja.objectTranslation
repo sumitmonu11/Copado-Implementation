@@ -2,22 +2,22 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value><!-- Test Script --></value>
+        <value></value>
     </caseValues>
     <fields>
-        <label><!-- Expected Result --></label>
+        <label></label>
         <name>copado__Expected_Result__c</name>
     </fields>
     <fields>
-        <label><!-- Introduction --></label>
+        <label></label>
         <name>copado__Introduction__c</name>
     </fields>
     <fields>
-        <label><!-- Credential --></label>
+        <label></label>
         <name>copado__Org__c</name>
     </fields>
     <fields>
-        <label><!-- Overall Outcome --></label>
+        <label></label>
         <name>copado__Overall_Outcome__c</name>
         <picklistValues>
             <masterLabel>Failed</masterLabel>
@@ -33,20 +33,20 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Peer Reviewer --></label>
+        <label></label>
         <name>copado__Peer_Reviewer__c</name>
-        <relationshipLabel><!-- Test Scripts --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Prerequisites --></label>
+        <label></label>
         <name>copado__Prerequisites__c</name>
     </fields>
     <fields>
-        <label><!-- Project --></label>
+        <label></label>
         <name>copado__Project__c</name>
     </fields>
     <fields>
-        <label><!-- Risk --></label>
+        <label></label>
         <name>copado__Risk__c</name>
         <picklistValues>
             <masterLabel>High</masterLabel>
@@ -62,11 +62,11 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Sprint --></label>
+        <label></label>
         <name>copado__Sprint__c</name>
     </fields>
     <fields>
-        <label><!-- Status --></label>
+        <label></label>
         <name>copado__Status__c</name>
         <picklistValues>
             <masterLabel>Complete</masterLabel>
@@ -82,21 +82,21 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Test Description --></label>
+        <label></label>
         <name>copado__Test_Description__c</name>
     </fields>
     <fields>
-        <label><!-- Test Title --></label>
+        <label></label>
         <name>copado__Test_Title__c</name>
     </fields>
     <fields>
-        <label><!-- User Story --></label>
+        <label></label>
         <name>copado__User_Story__c</name>
-        <relationshipLabel><!-- Test Scripts (User Story) --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
-    <nameFieldLabel><!-- Test Script Name --></nameFieldLabel>
+    <nameFieldLabel></nameFieldLabel>
     <webLinks>
-        <label><!-- Add_Test_Script_Steps --></label>
+        <label></label>
         <name>copado__Add_Test_Script_Steps</name>
     </webLinks>
 </CustomObjectTranslation>

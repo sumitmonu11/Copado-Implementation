@@ -2,112 +2,112 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value><!-- Step --></value>
+        <value></value>
     </caseValues>
     <fieldSets>
-        <label><!-- Deployment Steps --></label>
+        <label></label>
         <name>copado__Deployment_Steps</name>
     </fieldSets>
     <fieldSets>
-        <label><!-- ViewDeploymentColumns --></label>
+        <label></label>
         <name>copado__ViewDeploymentColumns</name>
     </fieldSets>
     <fields>
-        <label><!-- Api Name --></label>
+        <label></label>
         <name>copado__ApiName__c</name>
     </fields>
     <fields>
-        <label><!-- Attachment Id --></label>
+        <label></label>
         <name>copado__Attachment_Id__c</name>
     </fields>
     <fields>
         <help>このデプロイメントステップの元となったオートメーション</help>
-        <label><!-- Automated Behaviour --></label>
+        <label></label>
         <name>copado__Automated_Behaviour__c</name>
-        <relationshipLabel><!-- Execution History --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Branch --></label>
+        <label></label>
         <name>copado__Branch__c</name>
     </fields>
     <fields>
         <help>これはメタデータステップにのみ適用されます。他のステップの種類はこのチェックボックスの影響を受けません。
  警告: リソースは実際のデプロイメントと全く同じであるため、クレジットの消費は通常のデプロイメントと同じように適用されます。</help>
-        <label><!-- CheckOnly --></label>
+        <label></label>
         <name>copado__CheckOnly__c</name>
     </fields>
     <fields>
-        <label><!-- Commit Id --></label>
+        <label></label>
         <name>copado__Commit_Id__c</name>
     </fields>
     <fields>
-        <label><!-- Commit Name --></label>
+        <label></label>
         <name>copado__Commit_Name__c</name>
     </fields>
     <fields>
-        <label><!-- % Completed --></label>
+        <label></label>
         <name>copado__Completed__c</name>
     </fields>
     <fields>
-        <label><!-- # Completed --></label>
+        <label></label>
         <name>copado__Count_Completed__c</name>
     </fields>
     <fields>
-        <label><!-- % Deployed --></label>
+        <label></label>
         <name>copado__Deployed__c</name>
     </fields>
     <fields>
-        <label><!-- Deployment --></label>
+        <label></label>
         <name>copado__Deployment__c</name>
-        <relationshipLabel><!-- Steps --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Git Repository --></label>
+        <label></label>
         <name>copado__Git_Repository__c</name>
-        <relationshipLabel><!-- Steps --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- JsonResult --></label>
+        <label></label>
         <name>copado__JsonResult__c</name>
     </fields>
     <fields>
-        <label><!-- Manual Task Notified --></label>
+        <label></label>
         <name>copado__Manual_Task_Notified__c</name>
     </fields>
     <fields>
-        <label><!-- Notify Task Owner --></label>
+        <label></label>
         <name>copado__Notify_Task_Owner__c</name>
     </fields>
     <fields>
-        <label><!-- Order --></label>
+        <label></label>
         <name>copado__Order__c</name>
     </fields>
     <fields>
-        <label><!-- Credential Count --></label>
+        <label></label>
         <name>copado__Org_Count__c</name>
     </fields>
     <fields>
-        <label><!-- Parent Id --></label>
+        <label></label>
         <name>copado__ParentId__c</name>
     </fields>
     <fields>
-        <label><!-- Read Only --></label>
+        <label></label>
         <name>copado__Read_Only__c</name>
     </fields>
     <fields>
-        <label><!-- Run all tests --></label>
+        <label></label>
         <name>copado__Run_all_tests__c</name>
     </fields>
     <fields>
-        <label><!-- SUM Deployed --></label>
+        <label></label>
         <name>copado__SUM_Deployed__c</name>
     </fields>
     <fields>
-        <label><!-- Status Flag --></label>
+        <label></label>
         <name>copado__Status_Flag__c</name>
     </fields>
     <fields>
-        <label><!-- Status --></label>
+        <label></label>
         <name>copado__Status__c</name>
         <picklistValues>
             <masterLabel>Completed Successfully</masterLabel>
@@ -127,11 +127,11 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Type --></label>
+        <label></label>
         <name>copado__Type__c</name>
         <picklistValues>
             <masterLabel>Apex</masterLabel>
-            <translation><!-- Apex --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Automation</masterLabel>
@@ -179,11 +179,11 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>Test</masterLabel>
-            <translation><!-- Test --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Translations</masterLabel>
-            <translation><!-- Translations --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>URL Callout</masterLabel>
@@ -195,12 +195,12 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- View Attachment --></label>
+        <label></label>
         <name>copado__View_Attachment__c</name>
     </fields>
     <fields>
-        <label><!-- dataJson --></label>
+        <label></label>
         <name>copado__dataJson__c</name>
     </fields>
-    <nameFieldLabel><!-- Step Name --></nameFieldLabel>
+    <nameFieldLabel></nameFieldLabel>
 </CustomObjectTranslation>

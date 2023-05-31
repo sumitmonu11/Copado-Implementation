@@ -236,7 +236,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Stage Connections</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

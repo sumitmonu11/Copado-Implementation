@@ -494,7 +494,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Tests</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>copado__PreventUpdatingToolConfiguration</fullName>

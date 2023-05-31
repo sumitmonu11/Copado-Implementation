@@ -2,28 +2,28 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value><!-- Build Task --></value>
+        <value></value>
     </caseValues>
     <fields>
-        <label><!-- Continuous Integration --></label>
+        <label></label>
         <name>copado__Continuous_Integration__c</name>
-        <relationshipLabel><!-- Build Tasks --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Deployment --></label>
+        <label></label>
         <name>copado__Deployment__c</name>
-        <relationshipLabel><!-- Build Tasks --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Duration --></label>
+        <label></label>
         <name>copado__Duration__c</name>
     </fields>
     <fields>
-        <label><!-- Start Time --></label>
+        <label></label>
         <name>copado__Start_Time__c</name>
     </fields>
     <fields>
-        <label><!-- Status --></label>
+        <label></label>
         <name>copado__Status__c</name>
         <picklistValues>
             <masterLabel>Failed</masterLabel>
@@ -43,7 +43,7 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Type --></label>
+        <label></label>
         <name>copado__Type__c</name>
         <picklistValues>
             <masterLabel>Deploy</masterLabel>
@@ -54,5 +54,5 @@
             <translation>検証</translation>
         </picklistValues>
     </fields>
-    <nameFieldLabel><!-- Build Task Name --></nameFieldLabel>
+    <nameFieldLabel></nameFieldLabel>
 </CustomObjectTranslation>

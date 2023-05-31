@@ -2,41 +2,41 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value><!-- Git Snapshot --></value>
+        <value></value>
     </caseValues>
     <fieldSets>
-        <label><!-- Commit Files Information --></label>
+        <label></label>
         <name>copado__Commit_Files_Information</name>
     </fieldSets>
     <fieldSets>
-        <label><!-- Copado Header Fields --></label>
+        <label></label>
         <name>copado__Copado_Header_Fields</name>
     </fieldSets>
     <fieldSets>
-        <label><!-- CustomFields --></label>
+        <label></label>
         <name>copado__CustomFields</name>
     </fieldSets>
     <fieldSets>
-        <label><!-- Git Commit Header --></label>
+        <label></label>
         <name>copado__Git_Commit_Header</name>
     </fieldSets>
     <fieldSets>
-        <label><!-- Snapshot Waiting Page --></label>
+        <label></label>
         <name>copado__Snapshot_Waiting_Page</name>
     </fieldSets>
     <fields>
         <help>組織に関連するGitブランチ。ブランチ名は大文字小文字を区別しますのでご注意ください。</help>
-        <label><!-- Branch --></label>
+        <label></label>
         <name>copado__Branch__c</name>
     </fields>
     <fields>
         <help>Gitスナップショットで指定されたブランチの最新のコンプライアンス・スキャンのステータス</help>
-        <label><!-- Compliance Status --></label>
+        <label></label>
         <name>copado__Compliance_Status__c</name>
     </fields>
     <fields>
         <help>メタデータの自動バックアップのスケジュールを設定します。頻度が設定されると、Copadoは自動的に組織のメタデータコンポーネントをブランチにコミットします。</help>
-        <label><!-- Frequency --></label>
+        <label></label>
         <name>copado__Frequency__c</name>
         <picklistValues>
             <masterLabel>Daily</masterLabel>
@@ -57,12 +57,12 @@
     </fields>
     <fields>
         <help>GitスナップショットにリンクされたGitリポジトリ。指定したブランチは、Gitリポジトリに存在する必要があります。</help>
-        <label><!-- Git Repository --></label>
+        <label></label>
         <name>copado__Git_Repository__c</name>
-        <relationshipLabel><!-- Git Snapshots --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Git Snapshot Permissions --></label>
+        <label></label>
         <name>copado__Git_Snapshot_Permissions__c</name>
         <picklistValues>
             <masterLabel>Allow Commits Only</masterLabel>
@@ -79,33 +79,33 @@
     </fields>
     <fields>
         <help>ブランチにコミットされた最後のスナップショットの日付。</help>
-        <label><!-- Last Snapshot --></label>
+        <label></label>
         <name>copado__Last_Backup__c</name>
     </fields>
     <fields>
         <help>Gitスナップショットで指定されたブランチの最後のコンプライアンススキャンの日付。</help>
-        <label><!-- Last Compliance Scan Date --></label>
+        <label></label>
         <name>copado__Last_Compliance_Scan_Date__c</name>
     </fields>
     <fields>
         <help>空欄はすべてのタイプを表しています。選択した項目にのみをバックアップするには、1つ以上のタイプを選択してください。</help>
-        <label><!-- Metadata Types --></label>
+        <label></label>
         <name>copado__Metadata_Types__c</name>
     </fields>
     <fields>
         <help>クレデンシャルはGitスナップショットの指定されたブランチにコミットされるメタデータを取得するために使用されます。</help>
-        <label><!-- Credential --></label>
+        <label></label>
         <name>copado__Org__c</name>
-        <relationshipLabel><!-- Git Snapshots --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
         <help>Gitリポジトリのブランチへのリンク</help>
-        <label><!-- View in Git --></label>
+        <label></label>
         <name>copado__View_in_Git__c</name>
     </fields>
-    <nameFieldLabel><!-- Git Snapshot Name --></nameFieldLabel>
+    <nameFieldLabel></nameFieldLabel>
     <webLinks>
-        <label><!-- Select_Branch --></label>
+        <label></label>
         <name>copado__Select_Branch</name>
     </webLinks>
 </CustomObjectTranslation>

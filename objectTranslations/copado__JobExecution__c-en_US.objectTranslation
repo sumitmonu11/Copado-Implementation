@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
-        <help><!-- An apex class that must implement copado.JobExecutionCallback interface. --></help>
-        <label><!-- Callback --></label>
+        <help></help>
+        <label></label>
         <name>copado__Callback__c</name>
     </fields>
     <fields>
-        <label><!-- Commit --></label>
+        <label></label>
         <name>copado__Commit__c</name>
-        <relationshipLabel><!-- Job Executions --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Context --></label>
+        <label></label>
         <name>copado__Context__c</name>
     </fields>
     <fields>
-        <label><!-- DataJson --></label>
+        <label></label>
         <name>copado__DataJson__c</name>
     </fields>
     <fields>
-        <label><!-- Deployment --></label>
+        <label></label>
         <name>copado__Deployment__c</name>
-        <relationshipLabel><!-- Job Executions --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Destination --></label>
+        <label></label>
         <name>copado__Destination__c</name>
-        <relationshipLabel><!-- Job Executions (Destination) --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Error Message --></label>
+        <label></label>
         <name>copado__ErrorMessage__c</name>
     </fields>
     <fields>
-        <label><!-- Job Step --></label>
+        <label></label>
         <name>copado__Job_Step__c</name>
-        <relationshipLabel><!-- Job Executions --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Parent Id(Formula) --></label>
+        <label></label>
         <name>copado__ParentId__c</name>
     </fields>
     <fields>
-        <label><!-- Parent Id --></label>
+        <label></label>
         <name>copado__ParentRecord_Id__c</name>
     </fields>
     <fields>
-        <label><!-- Pipeline --></label>
+        <label></label>
         <name>copado__Pipeline__c</name>
-        <relationshipLabel><!-- Job Executions --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Promotion --></label>
+        <label></label>
         <name>copado__Promotion__c</name>
-        <relationshipLabel><!-- Job Executions --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Snapshot --></label>
+        <label></label>
         <name>copado__Snapshot__c</name>
-        <relationshipLabel><!-- Job Executions --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Source --></label>
+        <label></label>
         <name>copado__Source__c</name>
-        <relationshipLabel><!-- Job Executions --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Status --></label>
+        <label></label>
         <name>copado__Status__c</name>
         <picklistValues>
             <masterLabel>Canceled</masterLabel>
-            <translation><!-- Canceled --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Error</masterLabel>
-            <translation><!-- Error --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>In Progress</masterLabel>
-            <translation><!-- In Progress --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Not Started</masterLabel>
-            <translation><!-- Not Started --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Successful</masterLabel>
-            <translation><!-- Successful --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Template --></label>
+        <label></label>
         <name>copado__Template__c</name>
-        <relationshipLabel><!-- Job Executions --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <help><!-- This field relates to the parent User Story Commit record of the job execution --></help>
-        <label><!-- User Story Commit --></label>
+        <help></help>
+        <label></label>
         <name>copado__UserStoryCommit__c</name>
-        <relationshipLabel><!-- Job Executions --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- VolumeOptions --></label>
+        <label></label>
         <name>copado__VolumeOptions__c</name>
     </fields>
 </CustomObjectTranslation>
